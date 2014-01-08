@@ -114,7 +114,7 @@
 	<item name="secret">
 		<value xml:lang="ko"><![CDATA[비밀글 기능]]></value>
 		<value xml:lang="en"><![CDATA[Secret]]></value>
-		<value xml:lang="jp"><![CDATA[非公開文機能]]></value>
+		<value xml:lang="jp"><![CDATA[非公開機能]]></value>
 		<value xml:lang="zh-CN"><![CDATA[密帖]]></value>
 		<value xml:lang="zh-TW"><![CDATA[秘密]]></value>
 		<value xml:lang="es"><![CDATA[Características Bimilgeul]]></value>
@@ -124,7 +124,7 @@
 	<item name="thisissecret">
 		<value xml:lang="ko"><![CDATA[비밀글입니다.]]></value>
 		<value xml:lang="en"><![CDATA[This is a secret article.]]></value>
-		<value xml:lang="jp"><![CDATA[非公開文です。]]></value>
+		<value xml:lang="jp"><![CDATA[この書き込みは非公開に設定されています。]]></value>
 		<value xml:lang="zh-CN"><![CDATA[此为密帖。]]></value>
 		<value xml:lang="zh-TW"><![CDATA[這是秘密文。]]></value>
 		<value xml:lang="es"><![CDATA[Es bimilgeul.]]></value>
@@ -197,7 +197,7 @@
 	<item name="cmd_manage_selected_board">
 		<value xml:lang="ko"><![CDATA[선택한 게시판 관리]]></value>
 		<value xml:lang="en"><![CDATA[Manage Selected Board]]></value>
-		<value xml:lang="jp"><![CDATA[選択された掲示板の管理]]></value>
+		<value xml:lang="jp"><![CDATA[選択した掲示板の管理]]></value>
 	</item>
 	<item name="about_layout_setup">
 		<value xml:lang="ko"><![CDATA[블로그의 레이아웃 코드를 직접 수정할 수 있습니다. 위젯 코드를 원하는 곳에 삽입하시거나 관리하세요]]></value>
@@ -226,7 +226,7 @@
 	<item name="about_except_notice">
 		<value xml:lang="ko"><![CDATA[목록 상단에 늘 나타나는 공지사항을 일반 목록에서 공지사항을 출력하지 않도록 합니다.]]></value>
 		<value xml:lang="en"><![CDATA[Notice articles will not be displayed on normal list.]]></value>
-		<value xml:lang="jp"><![CDATA[リストの上段に常に表示されるお知らせの書き込みを一般リストからお知らせの書き込みが表示されないようにします。]]></value>
+		<value xml:lang="jp"><![CDATA[リストの上段に常に表示されるお知らせの書き込みを一般リストの場合、表示されないようにします。]]></value>
 		<value xml:lang="zh-CN"><![CDATA[设置公告目录项不再重复显示到普通目录当中。]]></value>
 		<value xml:lang="zh-TW"><![CDATA[設置公告列表項目，不再重複顯示到普通列表當中。]]></value>
 		<value xml:lang="fr"><![CDATA[Le titre de Notice dont l'article se représentera toujours en tête de la liste ne sera exposé sur la liste générale.]]></value>
@@ -237,7 +237,7 @@
 	<item name="about_use_anonymous">
 		<value xml:lang="ko"><![CDATA[글쓴이의 정보를 없애고 익명으로 게시판 사용을 할 수 있게 합니다. 스킨설정에서 글쓴이 정보등을 보이지 않도록 하시면 더욱 유용합니다. 추가설정의 문서 히스토리 사용이 꺼져있지 않으면 문서 수정시 작성자가 표시될 수 있습니다.]]></value>
 		<value xml:lang="en"><![CDATA[Make this board into an anonymous board by hiding the author's information. <strong>Please turn off history at additional setup. If not, editing document might show the author's info.</strong>]]></value>
-		<value xml:lang="jp"><![CDATA[匿名掲示板として活用出来ます。スキンの設定で「登録者の情報を表示しない」の設定をお勧めします。]]></value>
+		<value xml:lang="jp"><![CDATA[匿名掲示板として活用出来ます。スキンの設定で「登録者の情報を表示しない」の設定をおすすめします。]]></value>
 		<value xml:lang="zh-CN"><![CDATA[글쓴이의 정보를 없애고 익명으로 게시판 사용을 할 수 있게 합니다. 스킨설정에서 글쓰인 정보등을 보이지 않도록 하시면 더욱 유용합니다]]></value>
 		<value xml:lang="zh-TW"><![CDATA[討論板可使用匿名功能。可在面板設定中設置隱藏作者的資料。 ]]></value>
 		<value xml:lang="fr"><![CDATA[글쓴이의 정보를 없애고 익명으로 게시판 사용을 할 수 있게 합니다. 스킨설정에서 글쓰인 정보등을 보이지 않도록 하시면 더욱 유용합니다]]></value>
@@ -273,7 +273,7 @@
 	<item name="about_secret">
 		<value xml:lang="ko"><![CDATA[게시판 및 댓글의 비밀글 사용할 수 있도록 합니다.]]></value>
 		<value xml:lang="en"><![CDATA[Users will be able to write secret articles or comments.]]></value>
-		<value xml:lang="jp"><![CDATA[掲示板およびコメントの非公開文を登録出来るようにします。]]></value>
+		<value xml:lang="jp"><![CDATA[掲示板およびコメントの非公開を出来るようにします。]]></value>
 		<value xml:lang="zh-CN"><![CDATA[设置主题及评论当中使用密帖与否。]]></value>
 		<value xml:lang="zh-TW"><![CDATA[可用於討論板或回覆時選擇是否使用。]]></value>
 		<value xml:lang="es"><![CDATA[Boletín y los comentarios de bimilgeul utilizar.]]></value>
@@ -307,7 +307,7 @@
 	<item name="about_use_status">
 		<value xml:lang="ko"><![CDATA[글 작성 시 선택할 수 있는 상태를 지정해주세요.]]></value>
 		<value xml:lang="en"><![CDATA[Please select status that can be selected when write article.]]></value>
-		<value xml:lang="jp"><![CDATA[記事作成時に選択することができる状態を指定してください。]]></value>
+		<value xml:lang="jp"><![CDATA[書き込みを投稿する時に選択することができる状態を指定してください。]]></value>
 	</item>
 	<item name="msg_not_enough_point">
 		<value xml:lang="ko"><![CDATA[포인트가 부족합니다]]></value>
@@ -328,41 +328,51 @@
 	<item name="msg_not_allow_comment">
 		<value xml:lang="ko"><![CDATA[해당 글의 댓글 쓰기가 잠겨있습니다.]]></value>
 		<value xml:lang="en"><![CDATA[This article does not allow write comment.]]></value>
+		<value xml:lang="jp"><![CDATA[この書き込みにコメントすることは禁じられています。]]></value>
 	</item>
 	<item name="no_board_instance">
 		<value xml:lang="ko"><![CDATA[생성된 게시판이 없습니다.]]></value>
 		<value xml:lang="en"><![CDATA[There is no board created.]]></value>
+		<value xml:lang="jp"><![CDATA[作られた掲示板がありません。]]></value>
 	</item>
 	<item name="choose_board_instance">
 		<value xml:lang="ko"><![CDATA[관리할 게시판을 선택해 주세요.]]></value>
 		<value xml:lang="en"><![CDATA[Please choose one or more board instance.]]></value>
+		<value xml:lang="jp"><![CDATA[管理する掲示板を選択してください。]]></value>
 	</item>
 	<item name="comment_status">
 		<value xml:lang="ko"><![CDATA[댓글]]></value>
 		<value xml:lang="en"><![CDATA[Comments]]></value>
+		<value xml:lang="jp"><![CDATA[コメント]]></value>
 	</item>
 	<item name="category_settings">
 		<value xml:lang="ko"><![CDATA[분류 설정]]></value>
 		<value xml:lang="en"><![CDATA[Category settings]]></value>
+		<value xml:lang="jp"><![CDATA[カテゴリー設定]]></value>
 	</item>
 	<item name="hide_category">
 		<value xml:lang="ko"><![CDATA[분류 숨기기]]></value>
 		<value xml:lang="en"><![CDATA[Hide categories]]></value>
+		<value xml:lang="jp"><![CDATA[カテゴリーを隠す]]></value>
 	</item>
 	<item name="about_hide_category">
 		<value xml:lang="ko"><![CDATA[임시로 분류를 사용하지 않으려면 체크하세요.]]></value>
 		<value xml:lang="en"><![CDATA[You can disable a category feature.]]></value>
+		<value xml:lang="ko"><![CDATA[臨時にカテゴリー機能を使用しない場合、チェックして下さい。]]></value>
 	</item>
 	<item name="protect_content">
 		<value xml:lang="ko"><![CDATA[글 보호 기능]]></value>
 		<value xml:lang="en"><![CDATA[Protect contents]]></value>
+		<value xml:lang="jp"><![CDATA[書き込み保護]]></value>
 	</item>
 	<item name="about_protect_content">
 		<value xml:lang="ko"><![CDATA[작성된 글에 댓글이 작성된 경우 글 작성자는 해당 글을 수정하거나 삭제 할 수 없습니다.]]> </value>
 		<value xml:lang="en"><![CDATA[If there is comment on document, document's owner cannot modify or delete that.]]></value>
+		<value xml:lang="jp"><![CDATA[書き込みにコメントが投稿された場合、書き込みの作成者は書き込みの修正及び削除が出来ません。]]> </value>
 	</item>
 	<item name="msg_protect_content">
 		<value xml:lang="ko"><![CDATA[댓글이 작성된 게시물의 글을 수정 또는 삭제 할 수 없습니다.]]></value>
 		<value xml:lang="en"><![CDATA[Cannot modify or delete document. Because there is comments.]]></value>
+		<value xml:lang="jp"><![CDATA[コメントが投稿された書き込みの修正及び削除は禁じられています。]]></value>
 	</item>
 </lang>
