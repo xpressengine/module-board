@@ -102,6 +102,13 @@ class boardController extends board
 
 		// insert a new document otherwise
 		} else {
+			//조작된 document_srl 을 방지하는 효과
+			if($obj->document_srl) {
+				$oFileModel = &getModel('file');
+				$check_file = $oFileModel->getFiles($obj->document_srl);
+				if(!$check_file) return new Object(-1, 'msg_invalid_request');
+			}
+			
 			$output = $oDocumentController->insertDocument($obj, $bAnonymous);
 			$msg_code = 'success_registed';
 			$obj->document_srl = $output->get('document_srl');
