@@ -50,6 +50,8 @@ class boardController extends board
 			unset($obj->title_color);
 			unset($obj->title_bold);
 		}
+		// block modify regdate
+		unset($obj->regdate);
 
 		// generate document module model object
 		$oDocumentModel = getModel('document');
